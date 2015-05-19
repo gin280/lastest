@@ -1,0 +1,410 @@
+/* line 12, ../sass/styles.scss */
+body {
+  position: relative;
+  z-index: -1000;
+  background-color: pink;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  font-family: "Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif";
+  background-position: top center;
+  height: auto;
+}
+
+/* line 25, ../sass/styles.scss */
+.wrap {
+  width: 1032.5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 720px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 12, ../bower_components/susy/sass/susy/output/support/_clearfix.scss */
+.wrap:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 33, ../sass/styles.scss */
+.b1, .b2, .b3 {
+  margin-left: 59.0625px;
+  z-index: 9999;
+  margin-bottom: -70px;
+  text-align: center;
+  text-indent: -100000px;
+  background-image: url("../img/banner1.png");
+  width: 909px;
+  height: 84px;
+}
+
+/* line 45, ../sass/styles.scss */
+.b2 {
+  background-image: url("../img/banner2.png");
+  margin-top: 570px;
+}
+
+/* line 50, ../sass/styles.scss */
+.b3 {
+  background-image: url("../img/banner3.png");
+  margin-top: 20px;
+}
+
+/* line 56, ../sass/styles.scss */
+.section1, .section2, .section4 {
+  position: relative;
+  z-index: -100;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+  padding-top: 80px;
+  background-color: #109ef0;
+  border: 8px solid #08b4f4;
+  border: 8px solid rgba(8, 180, 244, 0.7);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 68, ../sass/styles.scss */
+.section1 ul, .section2 ul, .section4 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 11, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scss */
+.section1 ul li, .section2 ul li, .section4 ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 62, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section1 ul li, .section2 ul li, .section4 ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 49, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section1 ul li:first-child, .section2 ul li:first-child, .section4 ul li:first-child {
+  padding-left: 0;
+}
+/* line 50, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section1 ul li:last-child, .section2 ul li:last-child, .section4 ul li:last-child {
+  padding-right: 0;
+}
+/* line 52, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section1 ul li.last, .section2 ul li.last, .section4 ul li.last {
+  padding-right: 0;
+}
+/* line 73, ../sass/styles.scss */
+.section1 ul .active, .section2 ul .active, .section4 ul .active {
+  background-color: #ff3300;
+}
+/* line 77, ../sass/styles.scss */
+.section1 ul li, .section2 ul li, .section4 ul li {
+  position: relative;
+  line-height: 1.5;
+  height: 152px;
+  width: 152px;
+  float: left;
+  z-index: -1;
+  margin-left: 10px;
+  font-family: "SimHei";
+  background-color: #106bc7;
+  text-align: center;
+}
+/* line 88, ../sass/styles.scss */
+.section1 ul li i, .section2 ul li i, .section4 ul li i {
+  position: absolute;
+  color: #fee084;
+  z-index: 9999;
+  font-size: 2em;
+  top: 43%;
+  left: 90%;
+}
+/* line 97, ../sass/styles.scss */
+.section1 ul li .yes, .section2 ul li .yes, .section4 ul li .yes {
+  margin-top: -40px;
+}
+/* line 100, ../sass/styles.scss */
+.section1 ul li .no, .section2 ul li .no, .section4 ul li .no {
+  margin-top: 12px;
+}
+/* line 103, ../sass/styles.scss */
+.section1 ul li h4, .section2 ul li h4, .section4 ul li h4 {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #fff;
+}
+/* line 109, ../sass/styles.scss */
+.section1 ul li p, .section2 ul li p, .section4 ul li p {
+  color: #fedf7f;
+}
+/* line 112, ../sass/styles.scss */
+.section1 ul li div, .section2 ul li div, .section4 ul li div {
+  position: absolute;
+  color: #fedf7f;
+}
+/* line 115, ../sass/styles.scss */
+.section1 ul li div span, .section2 ul li div span, .section4 ul li div span {
+  color: #fff;
+}
+
+/* line 125, ../sass/styles.scss */
+.text-one {
+  margin-top: 10px;
+  background-color: #fff;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 130, ../sass/styles.scss */
+.text-one img {
+  width: 245px;
+  float: left;
+  margin-right: 17.5px;
+}
+/* line 133, ../sass/styles.scss */
+.text-one div {
+  width: 770px;
+  float: right;
+  margin-right: 0;
+  background-color: #fff;
+  font-family: "Microsoft YaHei";
+  text-align: left;
+}
+
+/* line 143, ../sass/styles.scss */
+.section2 {
+  padding-bottom: 20px;
+}
+/* line 147, ../sass/styles.scss */
+.section2 .text-two {
+  width: 595px;
+  float: left;
+  margin-right: 17.5px;
+  position: relative;
+}
+/* line 150, ../sass/styles.scss */
+.section2 .text-two a {
+  position: absolute;
+  display: block;
+}
+/* line 154, ../sass/styles.scss */
+.section2 .text-two .section2-btn {
+  position: absolute;
+  display: block;
+  bottom: -295px;
+  right: 0;
+  background-color: #b8d3ee;
+  background-color: rgba(184, 211, 238, 0.8);
+  color: #106bc7;
+  border: none;
+}
+/* line 164, ../sass/styles.scss */
+.section2 .text-two .section2-btn button {
+  padding: 10px 26px;
+  background-color: #b8d3ee;
+  background-color: rgba(184, 211, 238, 0.8);
+  color: #106bc7;
+  border: none;
+}
+/* line 172, ../sass/styles.scss */
+.section2 .text-two .section2-img1 {
+  left: 1%;
+  top: -20px;
+}
+/* line 176, ../sass/styles.scss */
+.section2 .text-two .section2-img2 {
+  left: 40%;
+  top: 70px;
+}
+/* line 180, ../sass/styles.scss */
+.section2 .text-two .section2-img3 {
+  left: 70%;
+  top: 30px;
+}
+/* line 185, ../sass/styles.scss */
+.section2 .role {
+  width: 332.5px;
+  float: right;
+  margin-right: 0;
+  background-color: #5898d8;
+  background-color: rgba(88, 152, 216, 0.7);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  text-align: left;
+  margin-right: 25px;
+  padding: 25px;
+}
+
+/* line 200, ../sass/styles.scss */
+.section3 {
+  margin-top: 420px;
+  background-color: #d3d3d3;
+  border: 8px solid #fff;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 205, ../sass/styles.scss */
+.section3 p {
+  text-align: center;
+  color: #999999;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  font-size: 2em;
+}
+/* line 212, ../sass/styles.scss */
+.section3 h3 {
+  width: 165px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: -8px;
+  background-color: #ff3300;
+  color: #fff;
+}
+
+/* line 226, ../sass/styles.scss */
+.section4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffcc;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: hidden;
+}
+/* line 234, ../sass/styles.scss */
+.section4 .box {
+  width: 332.5px;
+  float: left;
+  margin-right: 17.5px;
+  background-color: #fff;
+  margin-right: 4px;
+}
+/* line 239, ../sass/styles.scss */
+.section4 .box div p {
+  color: #0066cc;
+  float: left;
+  font-weight: bold;
+}
+/* line 243, ../sass/styles.scss */
+.section4 .box div p i {
+  font-size: 2em;
+}
+/* line 247, ../sass/styles.scss */
+.section4 .box div .section4-btn {
+  display: block;
+  float: right;
+  margin-right: 18px;
+}
+/* line 251, ../sass/styles.scss */
+.section4 .box div .section4-btn button {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+}
+/* line 260, ../sass/styles.scss */
+.section4 .last {
+  width: 332.5px;
+  float: right;
+  margin-right: 0;
+  margin-right: 25px;
+}
+
+/* line 266, ../sass/styles.scss */
+.footer {
+  background-image: url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 348px;
+  margin-top: -20px;
+  position: relative;
+  z-index: -999;
+}
+
+/* line 278, ../sass/styles.scss */
+.header1 {
+  position: absolute;
+  top: -230px;
+  right: 270px;
+}
+
+/* line 284, ../sass/styles.scss */
+.header2 {
+  position: absolute;
+  top: -120px;
+  right: 330px;
+}
+
+/* line 292, ../sass/styles.scss */
+.pop {
+  display: none;
+  position: relative;
+  width: 396px;
+  height: 329px;
+  background-image: url("../img/pop.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+  text-align: center;
+}
+/* line 302, ../sass/styles.scss */
+.pop h3 {
+  background-color: #a81c1c;
+  width: 266px;
+  font-size: 1.5em;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 311, ../sass/styles.scss */
+.pop p {
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 318, ../sass/styles.scss */
+.pop a {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 1.5em;
+  top: 10px;
+  right: 10px;
+}
